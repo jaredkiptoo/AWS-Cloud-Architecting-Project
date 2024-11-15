@@ -15,7 +15,7 @@ This project focuses on migrating a PHP-based web application and its MySQL data
 - **Primary AWS Architecture**: Deployed the application on EC2 instances in an Auto Scaling Group behind an Application Load Balancer, with an RDS MySQL database in private subnets, using AWS Secrets Manager for credentials management.
 
 ## Architecture Diagram  
-![AWS-Cloud-Architecting-Project/Architecture_Diagram](Capstone-Project.drawio.png) 
+![AWS-Cloud-Architecting-Project](Architecture_Diagram/Capstone-Project.drawio.png) 
 
 
 
