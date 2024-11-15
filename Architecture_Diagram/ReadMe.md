@@ -13,8 +13,8 @@ The solution utilizes the following key components:
 6. **IAM Roles and Policies**: Enforce least-privilege access control.  
 
 ## Architecture Diagram  
-![AWS Architecture Diagram](architecture-diagram.png)  
-*(Replace with the path to your uploaded architecture image file)*
+![AWS-Cloud-Architecting-Project/Architecture_Diagram](Capstone-Project.drawio.png)  
+
 
 ## Deployment Notes  
 - **Security**: All resources are provisioned within private subnets except for the ALB and CloudFront. Security groups and NACLs ensure strict traffic control.  
