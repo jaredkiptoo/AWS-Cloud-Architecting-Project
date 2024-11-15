@@ -39,7 +39,7 @@ This project focuses on migrating a PHP-based web application and its MySQL data
 - **Amazon VPC**: Offers a logically isolated virtual network with public and private subnets across multiple Availability Zones.
 - **Security Groups**: Act as virtual firewalls to control inbound and outbound traffic to resources.
 - **IAM Roles**: Manage permissions for AWS resources and services.
-- **AWS CloudWatch**: Monitors resources and applications, providing actionable insights.
+
 
 ## Deployment
 
