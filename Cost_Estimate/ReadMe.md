@@ -7,13 +7,11 @@ This repository contains the cost estimate for the Cloud Architecting Capstone P
 
 | **Service**            | **Usage**                       | **Estimated Cost (USD)** |
 |-------------------------|----------------------------------|--------------------------|
-| Amazon EC2             | 3 t3.micro instances (750 hours)| $22.32                  |
-| Amazon S3              | 50 GB storage + 10,000 requests | $7.00                   |
-| Amazon RDS             | db.t3.micro instance            | $13.82                  |
-| Amazon CloudFront      | 1 TB data transfer              | $85.00                  |
-| AWS Lambda             | 1 million invocations           | $0.20                   |
-| Amazon Route 53        | 3 hosted zones + 100 queries    | $1.50                   |
-| **Total Estimated Cost** | **N/A**                       | **$129.84/month**       |
+| Amazon EC2             | 4 t3.micro instances (180 hours)| $10.47                  |
+| Amazon ELB             |  1 ALB                          | $7.00                   |
+| Amazon RDS             | db.t3.micro instance            | $7.48                  |
+| Amazon Secrets Manager      | 1 Secret                   | $0.07                 |                   |
+| **Total Estimated Cost** | **N/A**                       | **$35.97/month**       |
 
 ## Cost Optimization Considerations  
 - Use **Free Tier** wherever possible.  
