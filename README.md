@@ -14,7 +14,8 @@ This project focuses on migrating a PHP-based web application and its MySQL data
 - **Importance**: Ensures the application can handle increased traffic, is highly available, and maintains secure data access.
 - **Primary AWS Architecture**: Deployed the application on EC2 instances in an Auto Scaling Group behind an Application Load Balancer, with an RDS MySQL database in private subnets, using AWS Secrets Manager for credentials management.
 
-## Architecture Diagram
+## Architecture Diagram  
+![AWS-Cloud-Architecting-Project/Architecture_Diagram](Capstone-Project.drawio.png) 
 
 
 
