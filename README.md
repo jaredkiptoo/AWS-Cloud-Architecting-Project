@@ -144,13 +144,9 @@ This project focuses on migrating a PHP-based web application and its MySQL data
   - Used NAT Gateways for EC2 instances to access the internet for updates.
 - **IAM Roles and Policies**:
   - Attached IAM roles to EC2 instances for accessing Secrets Manager.
-  - Implemented least privilege access for all IAM roles.
 - **AWS Secrets Manager**:
   - Stored database credentials securely.
   - Retrieved secrets programmatically within the application.
-- **Data Encryption**:
-  - Enabled encryption at rest for RDS using AWS KMS.
-  - Enforced SSL connections to RDS.
 - **Application Security**:
   - Regularly updated software packages and dependencies.
   - Configured proper error handling to avoid information leakage.
@@ -162,21 +158,16 @@ This project focuses on migrating a PHP-based web application and its MySQL data
 - **Functional Testing**:
   - Verified web application functionality through user interface testing.
   - Tested database connectivity and data retrieval.
-- **Load Testing**:
-  - Used tools like Apache JMeter to simulate high traffic and observe scaling.
 - **Failover Testing**:
   - Terminated EC2 instances to test Auto Scaling and ALB response.
 - **Security Testing**:
   - Performed vulnerability scans using tools like OWASP ZAP.
   - Tested IAM policies and role assignments.
 - **Monitoring and Logging**:
-  - Configured CloudWatch alarms for critical metrics.
   - Reviewed logs for EC2, RDS, and ALB to identify issues.
 
 ### Testing Tools Used
 
-- **AWS CloudWatch**: For monitoring and logging.
-- **Apache JMeter**: For load testing.
 - **MySQL Client**: For database verification.
 - **SSH Clients**: For secure access to EC2 instances.
 
@@ -191,7 +182,6 @@ This project focuses on migrating a PHP-based web application and its MySQL data
 
 ## Future Improvements
 
-- **Use AWS CloudFormation**: Automate infrastructure deployment with Infrastructure as Code.
 - **Implement CI/CD Pipeline**: Use AWS CodePipeline and CodeDeploy for continuous integration and deployment.
 - **Enhance Security with AWS WAF**: Protect the application from common web exploits and attacks.
 - **Optimize Costs**: Explore the use of Reserved Instances or Spot Instances for cost savings.
